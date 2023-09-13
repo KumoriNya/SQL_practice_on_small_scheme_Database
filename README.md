@@ -6,15 +6,15 @@ The attributes of entities are as follows:
 ![Alt text](attributes_of_entities.png)
 
 Setup of database:
-$ dropdb ass1
-Create a new empty atabase
-$ createdb ass1
-Load the database, saving the output in a file called log
-$ psql ass1 -f ass1.dump > log 2>&1
-Check for error messages in the log; should be none
-$ grep ERR log
-Examine the database contents ...
-$ psql ass1
+$ dropdb ass1<br>
+Create a new empty atabase<br>
+$ createdb ass1<br>
+Load the database, saving the output in a file called log<br>
+$ psql ass1 -f ass1.dump > log 2>&1<br>
+Check for error messages in the log; should be none<br>
+$ grep ERR log<br>
+Examine the database contents ...<br>
+$ psql ass1<br>
 
 Functions:
 1. Displays all breweries founded in the Sydney metropolitan area in 2020.

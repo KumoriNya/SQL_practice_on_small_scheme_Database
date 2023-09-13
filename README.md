@@ -1,0 +1,1 @@
+# SQL_practice_on_small_scheme_Database

@@ -6,15 +6,15 @@ The attributes of entities are as follows:
 ![Alt text](attributes_of_entities.png)
 
 Setup of database:
-vxdb$ dropdb ass1
-... create a new empty atabase
-vxdb$ createdb ass1
-... load the database, saving the output in a file called log
-vxdb$ psql ass1 -f ass1.dump > log 2>&1
-... check for error messages in the log; should be none
-vxdb$ grep ERR log
-... examine the database contents ...
-vxdb$ psql ass1
+$ dropdb ass1
+# create a new empty atabase
+$ createdb ass1
+# load the database, saving the output in a file called log
+$ psql ass1 -f ass1.dump > log 2>&1
+# check for error messages in the log; should be none
+$ grep ERR log
+# examine the database contents ...
+$ psql ass1
 
 Functions:
 1. Displays all breweries founded in the Sydney metropolitan area in 2020.
@@ -29,3 +29,5 @@ Functions:
 10. Displays the names of any ingredients that are not used in making any of the beers in the database.
 11. Returns an ABV range tuple containing the minimum and maximum ABVs of all beers brewed in any given country in the database.
 12. Returns information about all beers that contain any given string somewhere in their name (matching made in a case-insensitive way).
+
+Grade: 98%

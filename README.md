@@ -7,13 +7,13 @@ The attributes of entities are as follows:
 
 Setup of database:
 $ dropdb ass1
-# create a new empty atabase
+Create a new empty atabase
 $ createdb ass1
-# load the database, saving the output in a file called log
+Load the database, saving the output in a file called log
 $ psql ass1 -f ass1.dump > log 2>&1
-# check for error messages in the log; should be none
+Check for error messages in the log; should be none
 $ grep ERR log
-# examine the database contents ...
+Examine the database contents ...
 $ psql ass1
 
 Functions:
